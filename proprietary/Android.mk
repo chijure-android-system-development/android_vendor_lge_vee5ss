@@ -1,0 +1,228 @@
+# proprietary/Android.mk — generado por setup-makefiles.sh
+# NO editar manualmente.
+
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libacdk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libacdk.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libagpssupl
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libagpssupl.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libaudiocompensationfilter
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libaudiocompensationfilter.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libaudiocustparam
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libaudiocustparam.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libaudiosetting
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libaudiosetting.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libbessound_mtk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libbessound_mtk.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libbluetoothdrv
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libbluetoothdrv.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libbluetoothem_mtk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libbluetoothem_mtk.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libbluetooth_mtk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libbluetooth_mtk.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libbtcust
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libbtcust.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libbtcusttable
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libbtcusttable.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libbtpcm
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libbtpcm.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libcamalgo
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libcamalgo.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libcameracustom
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libcameracustom.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libcameraprofile
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libcameraprofile.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libcustom_nvram
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libcustom_nvram.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libmtk_devinfo
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libmtk_devinfo.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libmtk_drvb
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libmtk_drvb.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libnvram_daemon_callback
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libnvram_daemon_callback.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libnvram
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libnvram.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := librilmtk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/librilmtk.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libutilrilmtk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libutilrilmtk.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := mtk-ril
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/mtk-ril.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE       := mtk_agpsd
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH  := $(TARGET_OUT_EXECUTABLES)
+LOCAL_SRC_FILES    := bin/mtk_agpsd
+LOCAL_MODULE_TAGS  := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE       := nvram_agent_binder
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH  := $(TARGET_OUT_EXECUTABLES)
+LOCAL_SRC_FILES    := bin/nvram_agent_binder
+LOCAL_MODULE_TAGS  := optional
+include $(BUILD_PREBUILT)
+
