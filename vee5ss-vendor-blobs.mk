@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     $(LOCAL_PATH)/lib/hw/hwcomposer.mt6575.so:system/lib/hw/hwcomposer.mt6575.so \
     $(LOCAL_PATH)/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+    $(LOCAL_PATH)/lib/libproxyhal.so:system/lib/libproxyhal.so \
     $(LOCAL_PATH)/lib/hw/mmumapper.mt6575.so:system/lib/hw/mmumapper.mt6575.so \
     $(LOCAL_PATH)/lib/hw/power.default.so:system/lib/hw/power.default.so \
     $(LOCAL_PATH)/lib/hw/sensors.mt6575.so:system/lib/hw/sensors.mt6575.so \
