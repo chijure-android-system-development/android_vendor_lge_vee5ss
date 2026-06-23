@@ -48,14 +48,7 @@ LOCAL_SRC_FILES     := lib/libaudiosetting.so
 LOCAL_MODULE_TAGS   := optional
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE        := libbessound_mtk
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
-LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
-LOCAL_SRC_FILES     := lib/libbessound_mtk.so
-LOCAL_MODULE_TAGS   := optional
-include $(BUILD_PREBUILT)
+# libbessound_mtk replaced by stub in device/lge/vee5ss/libbessound_stub/
 
 include $(CLEAR_VARS)
 LOCAL_MODULE        := libbluetoothdrv

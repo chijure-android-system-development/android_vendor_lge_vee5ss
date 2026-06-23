@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     $(LOCAL_PATH)/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     $(LOCAL_PATH)/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
-    $(LOCAL_PATH)/lib/libbessound_mtk.so:system/lib/libbessound_mtk.so \
     $(LOCAL_PATH)/lib/libacdk.so:system/lib/libacdk.so \
     $(LOCAL_PATH)/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
     $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/libaudio.primary.default.so \
@@ -100,4 +99,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/liblgpart.so:system/lib/liblgpart.so \
     $(LOCAL_PATH)/lib/libnvram.so:system/lib/libnvram.so \
     $(LOCAL_PATH)/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
-    $(LOCAL_PATH)/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so
+    $(LOCAL_PATH)/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
+    $(LOCAL_PATH)/lib/libfile_op.so:system/lib/libfile_op.so \
+    $(LOCAL_PATH)/lib/libhwm.so:system/lib/libhwm.so \
+    $(LOCAL_PATH)/bin/nvram_daemon:system/bin/nvram_daemon \
+    $(LOCAL_PATH)/bin/nvram_agent_binder:system/bin/nvram_agent_binder
