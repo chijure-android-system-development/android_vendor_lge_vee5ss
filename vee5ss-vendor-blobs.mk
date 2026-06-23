@@ -77,6 +77,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/modules/vcodec_kernel_driver.ko:system/lib/modules/vcodec_kernel_driver.ko \
     $(LOCAL_PATH)/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     $(LOCAL_PATH)/lib/modules/wlan_mt6620.ko:system/lib/modules/wlan_mt6620.ko \
+    $(LOCAL_PATH)/lib/modules/wlan_mt6628.ko:system/lib/modules/wlan_mt6628.ko \
+    $(LOCAL_PATH)/etc/firmware/WIFI_RAM_CODE:system/etc/firmware/WIFI_RAM_CODE \
+    $(LOCAL_PATH)/etc/firmware/WIFI_RAM_CODE_E6:system/etc/firmware/WIFI_RAM_CODE_E6 \
+    $(LOCAL_PATH)/etc/firmware/WIFI_RAM_CODE_MT6628:system/etc/firmware/WIFI_RAM_CODE_MT6628 \
+    $(LOCAL_PATH)/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg \
+    $(LOCAL_PATH)/etc/firmware/mt6620_patch_e3_0_hdr.bin:system/etc/firmware/mt6620_patch_e3_0_hdr.bin \
+    $(LOCAL_PATH)/etc/firmware/mt6620_patch_e3_1_hdr.bin:system/etc/firmware/mt6620_patch_e3_1_hdr.bin \
+    $(LOCAL_PATH)/etc/firmware/mt6620_patch_e3_2_hdr.bin:system/etc/firmware/mt6620_patch_e3_2_hdr.bin \
+    $(LOCAL_PATH)/etc/firmware/mt6620_patch_e3_3_hdr.bin:system/etc/firmware/mt6620_patch_e3_3_hdr.bin \
+    $(LOCAL_PATH)/etc/firmware/mt6620_patch_e6_hdr.bin:system/etc/firmware/mt6620_patch_e6_hdr.bin \
     $(LOCAL_PATH)/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     $(LOCAL_PATH)/vendor/lib/egl/libEGL_mtk.so:system/vendor/lib/egl/libEGL_mtk.so \
     $(LOCAL_PATH)/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
