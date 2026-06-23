@@ -14,7 +14,38 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/liblgpclient_jni.so:system/lib/liblgpclient_jni.so \
     $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     $(LOCAL_PATH)/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    $(LOCAL_PATH)/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+    $(LOCAL_PATH)/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
+    $(LOCAL_PATH)/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
+    $(LOCAL_PATH)/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
+    $(LOCAL_PATH)/lib/libbessound_mtk.so:system/lib/libbessound_mtk.so \
+    $(LOCAL_PATH)/lib/libacdk.so:system/lib/libacdk.so \
+    $(LOCAL_PATH)/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+    $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/libaudio.primary.default.so \
+    $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6575.so \
+    $(LOCAL_PATH)/lib/libblisrc.so:system/lib/libblisrc.so \
+    $(LOCAL_PATH)/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+    $(LOCAL_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    $(LOCAL_PATH)/lib/libheadphonecompensationfilter.so:system/lib/libheadphonecompensationfilter.so \
+    $(LOCAL_PATH)/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
+    $(LOCAL_PATH)/lib/libnexaudiorenderer.so:system/lib/libnexaudiorenderer.so \
+    $(LOCAL_PATH)/lib/libaudioeffectsole.so:system/lib/libaudioeffectsole.so \
+    $(LOCAL_PATH)/lib/hw/camera.default.so:system/lib/hw/camera.mt6575.so \
+    $(LOCAL_PATH)/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    $(LOCAL_PATH)/lib/libcameracustom.so:system/lib/libcameracustom.so \
+    $(LOCAL_PATH)/lib/libcameraprofile.so:system/lib/libcameraprofile.so \
+    $(LOCAL_PATH)/lib/libcamalgo.so:system/lib/libcamalgo.so \
+    $(LOCAL_PATH)/lib/libmhal.so:system/lib/libmhal.so \
+    $(LOCAL_PATH)/lib/libmhalmdp.so:system/lib/libmhalmdp.so \
+    $(LOCAL_PATH)/lib/libmhalscenario.so:system/lib/libmhalscenario.so \
+    $(LOCAL_PATH)/lib/libmhaldrv.so:system/lib/libmhaldrv.so \
+    $(LOCAL_PATH)/lib/libmhalcontent.so:system/lib/libmhalcontent.so \
+    $(LOCAL_PATH)/lib/libmhalpipe.so:system/lib/libmhalpipe.so \
+    $(LOCAL_PATH)/lib/libmexif.so:system/lib/libmexif.so \
+    $(LOCAL_PATH)/lib/libeis.so:system/lib/libeis.so \
+    $(LOCAL_PATH)/lib/libmpoencoder.so:system/lib/libmpoencoder.so \
+    $(LOCAL_PATH)/lib/libmpo.so:system/lib/libmpo.so \
+    $(LOCAL_PATH)/lib/libutilitysw.so:system/lib/libutilitysw.so \
+    $(LOCAL_PATH)/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     $(LOCAL_PATH)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     $(LOCAL_PATH)/lib/hw/hwcomposer.mt6575.so:system/lib/hw/hwcomposer.mt6575.so \
