@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     $(LOCAL_PATH)/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     $(LOCAL_PATH)/lib/libacdk.so:system/lib/libacdk.so \
-    $(LOCAL_PATH)/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
     $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/libaudio.primary.default.so \
     $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6575.so \
     $(LOCAL_PATH)/lib/libblisrc.so:system/lib/libblisrc.so \
