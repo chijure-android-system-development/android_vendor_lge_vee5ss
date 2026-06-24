@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     $(LOCAL_PATH)/lib/libnexaudiorenderer.so:system/lib/libnexaudiorenderer.so \
     $(LOCAL_PATH)/lib/libaudioeffectsole.so:system/lib/libaudioeffectsole.so \
-    $(LOCAL_PATH)/lib/hw/camera.default.so:system/lib/hw/camera.mt6575.so \
+    $(LOCAL_PATH)/lib/hw/camera.default.so:system/lib/hw/camera.stock.mt6575.so \
     $(LOCAL_PATH)/lib/libcamera_client.so:system/lib/libcamera_client.so \
     $(LOCAL_PATH)/lib/libcameracustom.so:system/lib/libcameracustom.so \
     $(LOCAL_PATH)/lib/libcameraprofile.so:system/lib/libcameraprofile.so \
