@@ -4,8 +4,12 @@
 LOCAL_PATH := vendor/lge/vee5ss/proprietary
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/app/MtkBt.apk:system/app/MtkBt.apk \
     $(LOCAL_PATH)/bin/6620_launcher:system/bin/6620_launcher \
+    $(LOCAL_PATH)/bin/btconfig:system/bin/btconfig \
+    $(LOCAL_PATH)/bin/btlogmask:system/bin/btlogmask \
     $(LOCAL_PATH)/bin/hald:system/bin/hald \
+    $(LOCAL_PATH)/bin/mtkbt:system/bin/mtkbt \
     $(LOCAL_PATH)/bin/stp_dump3:system/bin/stp_dump3 \
     $(LOCAL_PATH)/bin/wpa_supplicant:system/bin/wpa_supplicant \
     $(LOCAL_PATH)/etc/wifi/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
@@ -26,7 +30,46 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6575.so \
     $(LOCAL_PATH)/lib/libblisrc.so:system/lib/libblisrc.so \
     $(LOCAL_PATH)/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+    $(LOCAL_PATH)/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
+    $(LOCAL_PATH)/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
+    $(LOCAL_PATH)/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
+    $(LOCAL_PATH)/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
+    $(LOCAL_PATH)/lib/libbtsniff.so:system/lib/libbtsniff.so \
+    $(LOCAL_PATH)/lib/libbtcust.so:system/lib/libbtcust.so \
+    $(LOCAL_PATH)/lib/libbtcusttable.so:system/lib/libbtcusttable.so \
+    $(LOCAL_PATH)/lib/libbtpcm.so:system/lib/libbtpcm.so \
+    $(LOCAL_PATH)/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
+    $(LOCAL_PATH)/lib/libengbttest_jni.so:system/lib/libengbttest_jni.so \
+    $(LOCAL_PATH)/lib/libextavrcp.so:system/lib/libextavrcp.so \
+    $(LOCAL_PATH)/lib/libextavrcp_jni.so:system/lib/libextavrcp_jni.so \
+    $(LOCAL_PATH)/lib/libextbip.so:system/lib/libextbip.so \
+    $(LOCAL_PATH)/lib/libextbip_jni.so:system/lib/libextbip_jni.so \
+    $(LOCAL_PATH)/lib/libextbpp.so:system/lib/libextbpp.so \
+    $(LOCAL_PATH)/lib/libextbpp_jni.so:system/lib/libextbpp_jni.so \
+    $(LOCAL_PATH)/lib/libextdun_jni.so:system/lib/libextdun_jni.so \
+    $(LOCAL_PATH)/lib/libextsys.so:system/lib/libextsys.so \
+    $(LOCAL_PATH)/lib/libextsys_jni.so:system/lib/libextsys_jni.so \
+    $(LOCAL_PATH)/lib/libextftp.so:system/lib/libextftp.so \
+    $(LOCAL_PATH)/lib/libextftp_jni.so:system/lib/libextftp_jni.so \
+    $(LOCAL_PATH)/lib/libexthid.so:system/lib/libexthid.so \
+    $(LOCAL_PATH)/lib/libexthid_jni.so:system/lib/libexthid_jni.so \
+    $(LOCAL_PATH)/lib/libextjsr82.so:system/lib/libextjsr82.so \
+    $(LOCAL_PATH)/lib/libextmap.so:system/lib/libextmap.so \
+    $(LOCAL_PATH)/lib/libextmap_jni.so:system/lib/libextmap_jni.so \
+    $(LOCAL_PATH)/lib/libextopp.so:system/lib/libextopp.so \
+    $(LOCAL_PATH)/lib/libextopp_jni.so:system/lib/libextopp_jni.so \
+    $(LOCAL_PATH)/lib/libextpan_jni.so:system/lib/libextpan_jni.so \
+    $(LOCAL_PATH)/lib/libextpbap.so:system/lib/libextpbap.so \
+    $(LOCAL_PATH)/lib/libextpbap_jni.so:system/lib/libextpbap_jni.so \
+    $(LOCAL_PATH)/lib/libextsimap.so:system/lib/libextsimap.so \
+    $(LOCAL_PATH)/lib/libextsimap_jni.so:system/lib/libextsimap_jni.so \
+    $(LOCAL_PATH)/lib/libexttestmode.so:system/lib/libexttestmode.so \
     $(LOCAL_PATH)/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
+    $(LOCAL_PATH)/lib/libmtkbtextadp.so:system/lib/libmtkbtextadp.so \
+    $(LOCAL_PATH)/lib/libmtkbtextadpa2dp.so:system/lib/libmtkbtextadpa2dp.so \
+    $(LOCAL_PATH)/lib/libmtkbtextpan.so:system/lib/libmtkbtextpan.so \
+    $(LOCAL_PATH)/lib/libmtkbtextspp.so:system/lib/libmtkbtextspp.so \
+    $(LOCAL_PATH)/lib/libpppbtdun.so:system/lib/libpppbtdun.so \
     $(LOCAL_PATH)/lib/libwpa_client.so:system/lib/libwpa_client.so \
     $(LOCAL_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(LOCAL_PATH)/lib/libheadphonecompensationfilter.so:system/lib/libheadphonecompensationfilter.so \
