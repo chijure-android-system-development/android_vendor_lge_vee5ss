@@ -4,6 +4,10 @@
 LOCAL_PATH := vendor/lge/vee5ss/proprietary
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bin/6620_launcher:system/bin/6620_launcher \
+    $(LOCAL_PATH)/bin/hald:system/bin/hald \
+    $(LOCAL_PATH)/bin/stp_dump3:system/bin/stp_dump3 \
+    $(LOCAL_PATH)/bin/wpa_supplicant:system/bin/wpa_supplicant \
     $(LOCAL_PATH)/etc/wifi/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
     $(LOCAL_PATH)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     $(LOCAL_PATH)/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
@@ -22,6 +26,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6575.so \
     $(LOCAL_PATH)/lib/libblisrc.so:system/lib/libblisrc.so \
     $(LOCAL_PATH)/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+    $(LOCAL_PATH)/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
+    $(LOCAL_PATH)/lib/libwpa_client.so:system/lib/libwpa_client.so \
     $(LOCAL_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(LOCAL_PATH)/lib/libheadphonecompensationfilter.so:system/lib/libheadphonecompensationfilter.so \
     $(LOCAL_PATH)/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
@@ -58,6 +64,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/modules/devinfo.ko:system/lib/modules/devinfo.ko \
     $(LOCAL_PATH)/lib/modules/m4u.ko:system/lib/modules/m4u.ko \
     $(LOCAL_PATH)/lib/modules/mtk_drvb.ko:system/lib/modules/mtk_drvb.ko \
+    $(LOCAL_PATH)/lib/modules/mtk_fm_drv.ko:system/lib/modules/mtk_fm_drv.ko \
+    $(LOCAL_PATH)/lib/modules/mtk_fm_priv.ko:system/lib/modules/mtk_fm_priv.ko \
     $(LOCAL_PATH)/lib/modules/mtk_hif_sdio.ko:system/lib/modules/mtk_hif_sdio.ko \
     $(LOCAL_PATH)/lib/modules/mtk_hif_sdio_mt6628.ko:system/lib/modules/mtk_hif_sdio_mt6628.ko \
     $(LOCAL_PATH)/lib/modules/mtklfb.ko:system/lib/modules/mtklfb.ko \
