@@ -22,22 +22,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/liblgpclient_jni.so:system/lib/liblgpclient_jni.so \
     $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     $(LOCAL_PATH)/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    $(LOCAL_PATH)/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
-    $(LOCAL_PATH)/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
-    $(LOCAL_PATH)/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
-    $(LOCAL_PATH)/lib/libacdk.so:system/lib/libacdk.so \
     $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/libaudio.primary.default.so \
     $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6575.so \
     $(LOCAL_PATH)/lib/libblisrc.so:system/lib/libblisrc.so \
-    $(LOCAL_PATH)/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
-    $(LOCAL_PATH)/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
     $(LOCAL_PATH)/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
-    $(LOCAL_PATH)/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
-    $(LOCAL_PATH)/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
     $(LOCAL_PATH)/lib/libbtsniff.so:system/lib/libbtsniff.so \
-    $(LOCAL_PATH)/lib/libbtcust.so:system/lib/libbtcust.so \
-    $(LOCAL_PATH)/lib/libbtcusttable.so:system/lib/libbtcusttable.so \
-    $(LOCAL_PATH)/lib/libbtpcm.so:system/lib/libbtpcm.so \
     $(LOCAL_PATH)/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
     $(LOCAL_PATH)/lib/libengbttest_jni.so:system/lib/libengbttest_jni.so \
     $(LOCAL_PATH)/lib/libextavrcp.so:system/lib/libextavrcp.so \
@@ -53,7 +42,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libextftp_jni.so:system/lib/libextftp_jni.so \
     $(LOCAL_PATH)/lib/libexthid.so:system/lib/libexthid.so \
     $(LOCAL_PATH)/lib/libexthid_jni.so:system/lib/libexthid_jni.so \
-    $(LOCAL_PATH)/lib/libextjsr82.so:system/lib/libextjsr82.so \
     $(LOCAL_PATH)/lib/libextmap.so:system/lib/libextmap.so \
     $(LOCAL_PATH)/lib/libextmap_jni.so:system/lib/libextmap_jni.so \
     $(LOCAL_PATH)/lib/libextopp.so:system/lib/libextopp.so \
@@ -66,7 +54,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libexttestmode.so:system/lib/libexttestmode.so \
     $(LOCAL_PATH)/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     $(LOCAL_PATH)/lib/libmtkbtextadp.so:system/lib/libmtkbtextadp.so \
-    $(LOCAL_PATH)/lib/libmtkbtextadpa2dp.so:system/lib/libmtkbtextadpa2dp.so \
     $(LOCAL_PATH)/lib/libmtkbtextpan.so:system/lib/libmtkbtextpan.so \
     $(LOCAL_PATH)/lib/libmtkbtextspp.so:system/lib/libmtkbtextspp.so \
     $(LOCAL_PATH)/lib/libpppbtdun.so:system/lib/libpppbtdun.so \
@@ -78,9 +65,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libaudioeffectsole.so:system/lib/libaudioeffectsole.so \
     $(LOCAL_PATH)/lib/hw/camera.default.so:system/lib/hw/camera.stock.mt6575.so \
     $(LOCAL_PATH)/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    $(LOCAL_PATH)/lib/libcameracustom.so:system/lib/libcameracustom.so \
-    $(LOCAL_PATH)/lib/libcameraprofile.so:system/lib/libcameraprofile.so \
-    $(LOCAL_PATH)/lib/libcamalgo.so:system/lib/libcamalgo.so \
     $(LOCAL_PATH)/lib/libmhal.so:system/lib/libmhal.so \
     $(LOCAL_PATH)/lib/libmhalmdp.so:system/lib/libmhalmdp.so \
     $(LOCAL_PATH)/lib/libmhalscenario.so:system/lib/libmhalscenario.so \
@@ -157,10 +141,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/firmware/modem.img:system/etc/firmware/modem.img \
     $(LOCAL_PATH)/etc/firmware/DSP_ROM:system/etc/firmware/DSP_ROM \
     $(LOCAL_PATH)/lib/liblgpart.so:system/lib/liblgpart.so \
-    $(LOCAL_PATH)/lib/libnvram.so:system/lib/libnvram.so \
-    $(LOCAL_PATH)/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
-    $(LOCAL_PATH)/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     $(LOCAL_PATH)/lib/libfile_op.so:system/lib/libfile_op.so \
     $(LOCAL_PATH)/lib/libhwm.so:system/lib/libhwm.so \
-    $(LOCAL_PATH)/bin/nvram_daemon:system/bin/nvram_daemon \
-    $(LOCAL_PATH)/bin/nvram_agent_binder:system/bin/nvram_agent_binder
+    $(LOCAL_PATH)/bin/nvram_daemon:system/bin/nvram_daemon
