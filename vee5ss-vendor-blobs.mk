@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     $(LOCAL_PATH)/lib/mtk-ril.so:system/lib/mtk-ril.so \
     $(LOCAL_PATH)/lib/librilmtk.so:system/lib/librilmtk.so \
+    $(LOCAL_PATH)/lib/librilmtk.so:system/lib/libril.so \
     $(LOCAL_PATH)/lib/libutilrilmtk.so:system/lib/libutilrilmtk.so \
     $(LOCAL_PATH)/lib/liblgpclient_jni.so:system/lib/liblgpclient_jni.so \
     $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
@@ -143,4 +144,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/liblgpart.so:system/lib/liblgpart.so \
     $(LOCAL_PATH)/lib/libfile_op.so:system/lib/libfile_op.so \
     $(LOCAL_PATH)/lib/libhwm.so:system/lib/libhwm.so \
+    $(LOCAL_PATH)/bin/lgpserver:system/bin/lgpserver \
     $(LOCAL_PATH)/bin/nvram_daemon:system/bin/nvram_daemon

@@ -203,6 +203,7 @@ LOCAL_SRC_FILES     := lib/librilmtk.so
 LOCAL_MODULE_TAGS   := optional
 include $(BUILD_PREBUILT)
 
+
 include $(CLEAR_VARS)
 LOCAL_MODULE        := libutilrilmtk
 LOCAL_MODULE_SUFFIX := .so
