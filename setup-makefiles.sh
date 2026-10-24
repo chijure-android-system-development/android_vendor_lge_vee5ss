@@ -47,6 +47,7 @@ find "$PROPRIETARY_DIR" -type f | grep -v '/Android\.mk$' | sort | while read -r
         lib/hw/*)       dest="system/$rel" ;;
         lib/egl/*)      dest="system/$rel" ;;
         lib/modules/*)  dest="system/$rel" ;;
+        app/MtkBt.apk)  continue ;;   # módulo MtkBt en device/lge/vee5ss/lge-compat
         lib/*.so)       continue ;;   # instalado por BUILD_PREBUILT
         bin/*)          continue ;;   # instalado por BUILD_PREBUILT
         etc/*)          dest="system/$rel" ;;
