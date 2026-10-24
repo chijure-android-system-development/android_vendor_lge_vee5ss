@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     $(LOCAL_PATH)/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/libaudio.primary.default.so \
-    $(LOCAL_PATH)/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6575.so \
     $(LOCAL_PATH)/lib/libblisrc.so:system/lib/libblisrc.so \
     $(LOCAL_PATH)/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
     $(LOCAL_PATH)/lib/libbtsniff.so:system/lib/libbtsniff.so \
