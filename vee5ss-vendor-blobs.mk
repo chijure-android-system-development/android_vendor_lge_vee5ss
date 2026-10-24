@@ -152,4 +152,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/xbin/mnld:system/xbin/mnld \
     $(LOCAL_PATH)/xbin/libmnlp:system/xbin/libmnlp \
     $(LOCAL_PATH)/etc/agps_profiles_conf.xml:system/etc/agps_profiles_conf.xml \
-    $(LOCAL_PATH)/etc/epo_conf.xml:system/etc/epo_conf.xml
+    $(LOCAL_PATH)/etc/epo_conf.xml:system/etc/epo_conf.xml \
+    $(LOCAL_PATH)/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
