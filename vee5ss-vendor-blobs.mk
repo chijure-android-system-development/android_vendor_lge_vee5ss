@@ -3,6 +3,10 @@
 
 LOCAL_PATH := vendor/lge/vee5ss/proprietary
 
+# lib/hw/hwcomposer.mt6575.so is NOT installed: it expects MediaTek's
+# extended layer ABI (132-byte layers) and corrupts SurfaceFlinger's heap
+# with CM's 64-byte ones. This video-mode panel composes fine through GLES.
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/app/MtkBt.apk:system/app/MtkBt.apk \
     $(LOCAL_PATH)/bin/6620_launcher:system/bin/6620_launcher \
@@ -81,7 +85,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     $(LOCAL_PATH)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
-    $(LOCAL_PATH)/lib/hw/hwcomposer.mt6575.so:system/lib/hw/hwcomposer.mt6575.so \
     $(LOCAL_PATH)/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     $(LOCAL_PATH)/lib/libproxyhal.so:system/lib/libproxyhal.so \
     $(LOCAL_PATH)/lib/hw/mmumapper.mt6575.so:system/lib/hw/mmumapper.mt6575.so \
