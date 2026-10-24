@@ -238,11 +238,11 @@ LOCAL_SRC_FILES    := bin/nvram_agent_binder
 LOCAL_MODULE_TAGS  := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
-LOCAL_MODULE        := libstagefrighthw
+LOCAL_MODULE        := libstagefrighthw_mtk
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
 LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
-LOCAL_SRC_FILES     := lib/libstagefrighthw.so
+LOCAL_SRC_FILES     := lib/libstagefrighthw_mtk.so
 LOCAL_MODULE_TAGS   := optional
 include $(BUILD_PREBUILT)
 
@@ -369,6 +369,15 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
 LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
 LOCAL_SRC_FILES     := lib/libh264enc_sa.ca9.so
+LOCAL_MODULE_TAGS   := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE        := libMtkOmxVdec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE_PATH   := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_SRC_FILES     := lib/libMtkOmxVdec.so
 LOCAL_MODULE_TAGS   := optional
 include $(BUILD_PREBUILT)
 

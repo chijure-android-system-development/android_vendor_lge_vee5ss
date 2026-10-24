@@ -50,8 +50,9 @@ while IFS= read -r line; do
     [[ "$line" =~ ^[[:space:]]*# ]] && continue
     [[ -z "${line// }" ]] && continue
 
-    FILE="$line"
-    DEST="$OUTPUT_DIR/$FILE"
+    # "origen:destino" guarda el blob con otro nombre en proprietary/
+    FILE="${line%%:*}"
+    DEST="$OUTPUT_DIR/${line#*:}"
     DEST_DIR="$(dirname "$DEST")"
 
     mkdir -p "$DEST_DIR"
