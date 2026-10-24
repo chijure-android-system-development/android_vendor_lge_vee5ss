@@ -149,4 +149,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libfile_op.so:system/lib/libfile_op.so \
     $(LOCAL_PATH)/lib/libhwm.so:system/lib/libhwm.so \
     $(LOCAL_PATH)/bin/lgpserver:system/bin/lgpserver \
-    $(LOCAL_PATH)/bin/nvram_daemon:system/bin/nvram_daemon
+    $(LOCAL_PATH)/bin/nvram_daemon:system/bin/nvram_daemon \
+    $(LOCAL_PATH)/xbin/mnld:system/xbin/mnld \
+    $(LOCAL_PATH)/xbin/libmnlp:system/xbin/libmnlp \
+    $(LOCAL_PATH)/etc/agps_profiles_conf.xml:system/etc/agps_profiles_conf.xml \
+    $(LOCAL_PATH)/etc/epo_conf.xml:system/etc/epo_conf.xml
